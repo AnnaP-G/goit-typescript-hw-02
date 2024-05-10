@@ -1,0 +1,24 @@
+.loadBoxBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loadBtn {
+    background-color: rgba(80, 171, 20, 0.858);
+    border: 2px solid green;;
+    color: black;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.loadBtn:hover,
+.loadBtn:focus {
+    background-color: rgb(83, 89, 248);
+    border:2px solid rgb(4, 6, 43);
+}

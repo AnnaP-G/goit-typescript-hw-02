@@ -1,0 +1,31 @@
+.header {
+    height: 50px;
+    background-color: #6fc3f7;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    gap: 10px;
+}
+
+
+.input {
+width: 300px;
+height: 35px;
+padding-left: 15px;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.formBtn {
+    width: 70px;
+    height: 33px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(22, 22, 81);
+    background-color: rgba(113, 98, 250, 0.461);
+    margin-left: 3px;
+}

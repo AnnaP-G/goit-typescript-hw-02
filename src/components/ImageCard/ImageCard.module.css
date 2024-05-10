@@ -1,0 +1,10 @@
+/* .imgItem {
+    display: flex;
+
+} */
+
+.css.imgCard {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
