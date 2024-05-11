@@ -1,6 +1,9 @@
+import { ImageCardProps } from "../App/App.types";
 import css from "./ImageCard.module.css";
-const ImageCard = ({ image, onModalOpen }) => {
-  const { urls, description } = image;
+
+
+const ImageCard = ({ image, onModalOpen }: ImageCardProps) => {
+  const { urls, alt_description: description } = image;
   return (
     <li className={css.imgItem}>
       <img

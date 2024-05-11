@@ -1,8 +1,9 @@
+import { ImageGalleryProps } from "../App/App.types";
 import ImageCard from "../ImageCard/ImageCard";
 import css from './ImageGallery.module.css'
 
-const ImageGallery = ({ images, onModalOpen }) => {
-  console.log(images);
+
+const ImageGallery = ({ images, onModalOpen }: ImageGalleryProps) => {
   return (
     <ul className={css.galleryList}>
       {Array.isArray(images) &&
